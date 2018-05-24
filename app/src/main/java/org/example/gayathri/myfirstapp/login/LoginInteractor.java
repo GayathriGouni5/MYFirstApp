@@ -4,11 +4,11 @@ public class LoginInteractor implements LoginContract.Interactor {
 
     @Override
     public void login(String username, String password, OnLoginListener listener) {
-        if(username.isEmpty())
+        if (username.trim().isEmpty())
             listener.onUsernameError();
-        else if(password.isEmpty())
+        else if (password.trim().isEmpty())
             listener.onPasswordError();
-        else{
+        else {
             //Login code here
             listener.onSuccess();
         }
