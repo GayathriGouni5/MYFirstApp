@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MYFirstApp</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="not_a_member">Not a member? Sign Up</string>
 </resources>
